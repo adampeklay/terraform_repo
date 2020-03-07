@@ -8,7 +8,7 @@ The template created can called via Terraform GitHub provider to create new Terr
 - Terraform `.gitignore` file
 
 ## Pull request template:
-- This helps everyone code reviewers by answering some basic information about your proposed changes
+- This helps code reviewers by answering some basic information about your proposed changes
 ```
 # Topic of pull request
 
