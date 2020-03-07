@@ -7,6 +7,10 @@ The template created can called via Terraform GitHub provider to create new Terr
 - Terraform PR builder 
 - Terraform `.gitignore` file
 
+## To-do
+- AWS IAM read only for `terraform plan`
+- Update github secrets with IAM creds
+
 ## Pull request template:
 - This helps code reviewers by answering some basic information about your proposed changes
 ```
