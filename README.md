@@ -1,6 +1,6 @@
 ## terraform_repo WIP
-This repo is used to create a template for Terraform GitHub repos.
-The template created can called via Terraform GitHub provider to create new GitHub repositories, etc.
+This repo can be used to create a Terraform GitHub repo or to create a template for Terraform GitHub repos.
+The template created can called via Terraform GitHub provider to create new Terraform GitHub repositories, etc.
 
 ## Contents:
 - Pull request template 
@@ -8,8 +8,27 @@ The template created can called via Terraform GitHub provider to create new GitH
 - GitHub CODEOWNERS file
 - Terraform `.gitignore` file
 
+## To-do
+- AWS IAM read only for `terraform plan`
+- Update github secrets with IAM creds
+
 ## Pull request template:
-- This helps everyone out by answering some basic information about your proposed changes
+- This helps code reviewers by answering some basic information about your proposed changes
+```
+# Topic of pull request
+
+## Purpose:
+
+## Changes:
+- example 1
+- example 2
+
+## Tests:
+
+## Deployment plan:
+
+## Miscellaneous information:
+```
 
 ## PR builder:
  Upon PR creation, the PR builder will run: 
