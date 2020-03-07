@@ -8,11 +8,24 @@ The template created can called via Terraform GitHub provider to create new GitH
 - Terraform `.gitignore` file
 
 ## Pull request template:
----
 - This helps everyone out by answering some basic information about your proposed changes
+```
+# Topic of pull request
+
+## Purpose:
+
+## Changes:
+- example 1
+- example 2
+
+## Tests:
+
+## Deployment plan:
+
+## Miscellaneous information:
+```
 
 ## PR builder:
----
  Upon PR creation, the PR builder will run: 
   - `terraform fmt`
   - `terraform init`
