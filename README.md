@@ -27,6 +27,8 @@ The template created can called via Terraform GitHub provider to create new Terr
 
 ## Deployment plan:
 
+## Rollback plan:
+
 ## Miscellaneous information:
 ```
 
