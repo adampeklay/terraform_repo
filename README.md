@@ -1,5 +1,5 @@
 ## terraform_repo WIP
-This repo is used to create a template for Terraform GitHub repos.
+This repo can be used to create a Terraform GitHub repo or to create a template for Terraform GitHub repos.
 The template created can called via Terraform GitHub provider to create new Terraform GitHub repositories, etc.
 
 ## Contents:
