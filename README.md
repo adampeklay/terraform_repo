@@ -3,7 +3,7 @@ This repo can be used to create a Terraform GitHub repo or to create a template 
 The template created can called via Terraform GitHub provider to create new Terraform GitHub repositories, etc.
 
 ## Contents:
-- Pull request template 
+- PR template 
 - Terraform PR builder 
 - GitHub CODEOWNERS file
 - Terraform `.gitignore` file
