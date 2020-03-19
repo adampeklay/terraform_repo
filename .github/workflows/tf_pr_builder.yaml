@@ -18,13 +18,6 @@ jobs:
           tf_actions_comment: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: commit-fmt
-        if: steps.tf_fmt.outputs.tf_actions_fmt_written == 'true'
-        run: |
-          git commit -m "Format Terraform files" -a
-          git push -u origin ${{ github.head_ref }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Terraform Init'
         uses: hashicorp/terraform-github-actions@master
         with:
