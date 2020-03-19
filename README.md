@@ -1,6 +1,6 @@
 ## terraform_repo WIP
 Terraform PR builder - WIP
-  - still need to get fmt to apply to the .tf files.  Hashi documentation isn't clear on that & I'll submit a PR with them once I figure it out
+  - still need to get `fmt` to apply to the `*.tf` files.  Hashi documentation isn't clear on that & I'll submit a PR with them once I figure it out
   - the `*.tf` files in this repo are for my tests until this is no no longer WIP
 
 ![Terraform PR Builder](https://github.com/adampeklay/terraform_repo/workflows/Terraform%20PR%20Builder/badge.svg)
