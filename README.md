@@ -32,6 +32,7 @@ This is a good first iteration to build upon or to get you started with GitHub A
  Upon PR creation, the PR builder will run: 
   - `terraform fmt`
     - logic is in place to format the changes on your PR branch and commit them if need be
+    - the step will fail and comment for awareness, but will trigger the next step which will apply fmt to your branch and commit to your branch.
   - `terraform init`
   - `terraform validate`
   - `terraform plan`
