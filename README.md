@@ -1,5 +1,4 @@
-## terraform_repo WIP
-Terraform PR builder
+## terraform_repo
 
 This is a good first iteration to build upon or to get you started with GitHub Actions in general.
 
