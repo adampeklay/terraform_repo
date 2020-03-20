@@ -1,7 +1,5 @@
 ## terraform_repo WIP
-Terraform PR builder - WIP
-  - still need to get `fmt` to apply to the `*.tf` files.  Hashi documentation isn't clear on that & I'll submit a PR with them once I figure it out
-  - the `*.tf` files in this repo are for my tests until this is no no longer WIP
+Terraform PR builder
 
 ![Terraform PR Builder](https://github.com/adampeklay/terraform_repo/workflows/Terraform%20PR%20Builder/badge.svg)
 ## Contents:
@@ -32,7 +30,8 @@ Terraform PR builder - WIP
 
 ## PR builder:
  Upon PR creation, the PR builder will run: 
-  - `terraform fmt`: WIP: fails on improper fmt at the moment, doesn't write changes but will comment in PR
+  - `terraform fmt`
+    - logic is in place to format the changes on your PR branch and commit them if need be
   - `terraform init`
   - `terraform validate`
   - `terraform plan`
