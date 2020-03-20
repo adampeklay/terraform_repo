@@ -37,6 +37,9 @@ This is a good first iteration to build upon or to get you started with GitHub A
   - `terraform validate`
   - `terraform plan`
 
+In the example below, `terraform fmt` step failed however logic wil write `fmt` changes to your branch and commit them.  Terraform plan is placed in a comment as well:
+![Alt text](/exmaple/example.png?raw=true)
+
 Notes:
 - Make sure you set `tf_actions_version` accordingly on the repo created from the template.
 - `GITHUB_TOKEN` is created for you by GitHub when you enable GitHub Actions.
