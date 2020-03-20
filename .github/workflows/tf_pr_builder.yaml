@@ -10,12 +10,21 @@ jobs:
         uses: actions/checkout@master
       - name: 'Terraform Format'
         uses: hashicorp/terraform-github-actions@master
+        id: tf_fmt
         with:
           tf_actions_version: 0.12.23
           tf_actions_subcommand: 'fmt'
           tf_actions_working_dir: '.'
           tf_actions_fmt_write: true
           tf_actions_comment: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push fmt changes to PR branch
+        if: steps.tf_fmt.outputs.tf_actions_fmt_written == 'true'
+        uses: Automattic/action-commit-to-branch@master
+        with:
+          branch: ${{ github.head_ref }}
+          commit_message: 'apply fmt changes'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Terraform Init'
