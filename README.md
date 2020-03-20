@@ -2,6 +2,9 @@
 Terraform PR builder
 
 ![Terraform PR Builder](https://github.com/adampeklay/terraform_repo/workflows/Terraform%20PR%20Builder/badge.svg)
+
+This is a good first iteration to build upon or to get you started with GitHub Actions in general.
+
 ## Contents:
 - PR template 
 - Terraform PR builder 
