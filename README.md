@@ -37,7 +37,7 @@ This is a good first iteration to build upon or to get you started with GitHub A
   - `terraform validate`
   - `terraform plan`
 
-In the example below, the `terraform fmt` step failed however logic wil write `fmt` changes to your branch and commit them.  Terraform plan is placed in a comment as well:
+In the example below, the `terraform fmt` step failed however logic will write `fmt` changes to your branch and commit them.  Terraform plan is placed in a comment as well:
 ![Alt text](/exmaple/example.png?raw=true)
 
 Notes:
