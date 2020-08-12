@@ -8,7 +8,7 @@ This is a good first iteration to build upon or to get you started with GitHub A
 - GitHub CODEOWNERS file
 - Terraform `.gitignore` file
 
-## Pull request template:
+## Pull request template (Optional, remove if you'd like):
 - This helps code reviewers by answering some basic information about your proposed changes
 ```
 # Topic of pull request
@@ -47,4 +47,4 @@ Notes:
 - You need to store [AWS key secrets](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) with appropriate permissions for `terraform init` & `terraform plan` to work,  unless you are going to [host your own runner](https://help.github.com/en/actions/hosting-your-own-runners).
 
 ## Branch Protection
-This repo has a `.github/CODEOWNERS` file ready for you to update to enforce branch protection rules.  Don't forget to remove me, I'm in the file as this master branch is protected.
+This repo has a `.github/CODEOWNERS` file ready for you to update to enforce branch protection rules.  Don't forget to remove me from the file.
