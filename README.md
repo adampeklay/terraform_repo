@@ -41,6 +41,7 @@ In the example below, the `terraform fmt` step failed however logic will write `
 ![Alt text](/example/example.png?raw=true)
 
 Notes:
+- Don't forget to pull down the changes to your local branch if `fmt` applied changes.  You can remove that logic in the github action if you don't want an automatic `fmt` apply as this will cause conflicts.
 - Make sure you set `tf_actions_version` accordingly on the repo created from the template.
 - `GITHUB_TOKEN` is created for you by GitHub when you enable GitHub Actions.
 - If you're calling a module in your GitHub Org that's in a separate private repo, create a PAT and use that for `terraform init` action instead of `GITHUB_TOKEN`.
