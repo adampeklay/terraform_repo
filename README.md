@@ -4,7 +4,7 @@ This is a good first iteration to build upon or to get you started with GitHub A
 
 ## Contents:
 - PR template 
-- Terraform PR builder 
+- Terraform PR builder (using GitHub Actions)
 - GitHub CODEOWNERS file
 - Terraform `.gitignore` file
 
