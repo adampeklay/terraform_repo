@@ -3,30 +3,9 @@
 This is a good first iteration to build upon or to get you started with GitHub Actions in general.
 
 ## Contents:
-- PR template 
 - Terraform PR builder (using GitHub Actions)
 - GitHub CODEOWNERS file
 - Terraform `.gitignore` file
-
-## Pull request template (Optional, remove if you'd like):
-- This helps code reviewers by answering some basic information about your proposed changes
-```
-# Topic of pull request
-
-## Purpose:
-
-## Changes:
-- example 1
-- example 2
-
-## Tests:
-
-## Deployment plan:
-
-## Rollback plan:
-
-## Miscellaneous information:
-```
 
 ## PR builder:
  Upon PR creation, the PR builder will run: 
